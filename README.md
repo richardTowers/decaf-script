@@ -6,3 +6,11 @@ An *extremely* lightwieght JavaScript transcomiler:
     function (source) {
         return source.replace(/(\([^)]*\)) ?->/g, function (_, p1) { return 'function ' + p1; });
     }
+
+Compiles:
+
+    (arg1, arg2, arg3) -> { return arg1 + arg2 + arg2; }
+
+Into:
+
+    function (arg1, arg2, arg3) { return arg1 + arg2 + arg2; }
