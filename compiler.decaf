@@ -1,0 +1,5 @@
+((decaf) -> {
+	decaf.Compile = (source) -> {
+		source.replace(/(([^)]*))function( ?)/g, (_, arguments, whitespace) -> { return 'function' + whitespace + '(' + arguments + ')'; });
+	}
+}(window.Decaf = window.Decaf || {}));
