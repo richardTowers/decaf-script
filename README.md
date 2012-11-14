@@ -1,7 +1,7 @@
 LightScript
 ===========
 
-An *extremely* lightwieght JavaScript transcomiler:
+An *extremely* lightwieght JavaScript transcompiler:
 
     function (source) {
         return source.replace(/(\([^)]*\)) ?->/g, function (_, p1) { return 'function ' + p1; });
