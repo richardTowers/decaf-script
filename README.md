@@ -13,10 +13,10 @@ function (arg1, arg2, arg3) { return arg1 + arg2 + arg2; }
 
 As a result of it's extreme simplicity, DecafScript is only 126 bytes, minified and gzipped.
 
-== Known Issues ==
+### Known Issues
 
 The compiler is extremely stupid, so any code that look like `(...) ->` is replaced, even if it's part of a comment, string or regex.
 
-== Is this a joke? ==
+### Is this a joke?
 
 Yes. I suppose it is :-).
