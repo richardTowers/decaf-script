@@ -1,10 +1,10 @@
 LightScript
 ===========
 
-An *extremely* lightwieght JavaScript transcompiler:
+An *extremely* lightweight JavaScript transcompiler:
 
     var LightScript = function (source) {
-        return source.replace(/(\([^)]*\)) ?->/g, function (_, p1) { return 'function ' + p1; });
+        return source.replace(/(\([^)]*\)) ?->/g, function (_, argumentsString) { return 'function ' + argumentsString; });
     }
 
 Compiles:
@@ -18,5 +18,5 @@ Into:
 The LightScript compiler written in LightScript:
 
     var LightScript = (source) -> {
-         return source.replace(/(\([^)]*\)) ?->/g, (_, p1) -> { return 'function ' + p1; });
+         return source.replace(/(\([^)]*\)) ?->/g, (_, argumentsString) -> { return 'function ' + argumentsString; });
      }
