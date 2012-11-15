@@ -3,6 +3,8 @@ DecafScript
 
 An *extremely* lightweight language that compiles to JavaScript.
 
+If [CoffeeScript](https://github.com/jashenkas/CoffeeScript) is JavaScript without the bad parts, DecafScript is CoffeeScript without *all* of the parts!
+
 The *only* feature that seperates DecafScript from straight JavaScript is syntactic sugar for function declarations:
 
 ```javascript
@@ -15,7 +17,7 @@ As a result of it's extreme simplicity, DecafScript is only 126 bytes, minified 
 
 ### Known Issues
 
-The compiler is extremely stupid, so any code that look like `(...) ->` is replaced, even if it's part of a comment, string or regex.
+The compiler is extremely stupid, so any code that looks like `(...) ->` is replaced, even if it's part of a comment, string or regex.
 
 ### Is this a joke?
 
