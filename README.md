@@ -17,7 +17,7 @@ As a result of it's extreme simplicity, DecafScript is only 126 bytes, minified 
 
 ### Known Issues
 
-The compiler is extremely stupid, so any code that looks like `(...) ->` is replaced, even if it's part of a comment, strin literal or regex.
+The compiler is extremely stupid, so any code that looks like `(...) ->` is replaced, even if it's part of a comment, string literal or regex.
 
 ### Is this a joke?
 
