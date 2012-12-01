@@ -21,4 +21,4 @@ The compiler is extremely stupid, so any code that looks like `(...) ->` is repl
 
 ### Is this a joke?
 
-Yes.
+Perhaps.
