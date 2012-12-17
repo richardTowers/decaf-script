@@ -13,7 +13,7 @@ The only feature that seperates DecafScript from straight JavaScript is syntacti
 function (arg1, arg2, arg3) { return arg1 + arg2 + arg2; }
 ```
 
-As a result of it's extreme simplicity, DecafScript is only 126 bytes, minified and gzipped.
+As a result of it's extreme simplicity, the DecafScript compiler is only 126 bytes, compiled, minified and gzipped.
 
 ### Known Issues
 
